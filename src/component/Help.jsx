@@ -41,16 +41,16 @@ const Help = () => {
               <div className="text">
 
               <h4>
-                        You can enter weight in kiligrams(KG)
-                        Eg. weight = 50, 60, 70 etc
+                        You can enter weight in kilograms(KG)
+                        Eg. weight = 50, 60, 70, etc
                         </h4>
                         <h4>
-                        You can calculate height in inches Eg. 5.4 foot = 64.8 inches                      
+                        You can calculate height in inches Eg. 5.4 feet = 64.8 inches                      
                         </h4>      
               </div>
                  <div className='main-label'>
                     <div className='label'>
-                      <label>Height(foot)</label>
+                      <label>Height(feet)</label>
                       <input  type='number' placeholder='Enter height in foot' value={foot} onChange={onSetFoot} ></input>
                     </div>
                  </div>
